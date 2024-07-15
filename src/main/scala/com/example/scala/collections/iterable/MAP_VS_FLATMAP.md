@@ -9,10 +9,6 @@
 
 ### Part 1: When to use map vs flatMap
 
-Maps:	 
-xs.map(f)	The collection obtained from applying the function f to every element in xs.
-xs.flatMap(f)	The collection obtained from applying the collection-valued function f to every element in xs and concatenating the results.
-
 Understanding when to use `map` versus `flatMap` is crucial for working effectively with Scala collections and monads. Let's break down the differences with simple examples and explanations.
 
 ### `map` vs `flatMap`

@@ -81,7 +81,8 @@ res7: List[Int] = List(3, 4, 5)
 
 ![Iterable](iterable.png "Iterable")
 
-In the inheritance hierarchy below `Iterable` you find three traits: [Seq](../seq/SEQ.md) `Seq`, `Set`, and `Map`. Seq and Map implement the `PartialFunction` trait with its `apply` and `isDefinedAt` methods, each implemented differently. `Set` gets its `apply` method from `SetOps`.
+In the inheritance hierarchy below `Iterable` you find three traits: [Seq](../seq/SEQ.md "Visit SEQ.md"), [Set](../set/SET.md "Visit SET.md"), and [Map](../map/MAP.md "Visit MAP.md"). Seq and Map implement the `PartialFunction` trait with its `apply` and `isDefinedAt` methods, each implemented differently. `Set` gets its `apply` method from `SetOps`.
+
 
 For sequences, `apply` is positional indexing, where elements are always numbered from `0`. That is, `Seq(1, 2, 3)(1)` gives `2`. For sets, `apply` is a membership test. For instance, `Set('a', 'b', 'c')('b')` gives `true` whereas `Set()('a')` gives `false`. Finally, for maps, `apply` is a selection. For instance, `Map('a' -> 1, 'b' -> 10, 'c' -> 100)('b')` gives `10`.
 

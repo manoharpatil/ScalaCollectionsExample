@@ -45,3 +45,6 @@ build/
 
 ### Scala ###
 .bsp/
+
+# Ignore build properties file
+project/build.properties
