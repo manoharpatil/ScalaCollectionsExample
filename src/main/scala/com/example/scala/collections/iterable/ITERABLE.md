@@ -20,8 +20,7 @@ Collection classes that implement `Iterable` just need to define this method; al
 - **[Addition](./ADDITION.md "Visit ADDITION.md")**, `concat`, which appends two collections together, or appends all elements of an iterator to a collection.
 
 
-- **[Map](./MAP.md "Visit MAP.md")** operations `map`, `flatMap`, and `collect`, which produce a new collection by applying some function to collection elements.
-
+- **[Map Operations](./MAP_OPERATIONS.md "Visit MAP_OPERATIONS.md")** `map`, `flatMap`, and `collect`, which produce a new collection by applying some function to collection elements.
 
 - **[Conversions](./CONVERSIONS.md "Visit CONVERSIONS.md")** `to`, `toList`, `toVector`, `toMap`, `toSet`, `toSeq`, `toIndexedSeq`, `toBuffer`, `toArray` which turn an `Iterable` collection into something more specific. If the destination is a mutable collection(`to(collection.mutable.X)`, `toArray`, `toBuffer`), a new collection is created by copying the original elements. All these conversions return their receiver argument unchanged if the run-time type of the collection already matches the demanded collection type. For instance, applying `toList` to a list will yield the list itself. 
 
