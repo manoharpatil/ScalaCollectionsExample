@@ -40,7 +40,7 @@ List 				// because scala._
                                 // is always automatically imported	
 ```
 
-Other types aliased are [Iterable](./src/main/scala/com/example/scala/collections/iterable/ITERABLE.md "Visit Iterable"), [Seq](./src/main/scala/com/example/scala/collections/seq/SEQ.md "Visit Seq"), [IndexedSeq]("Visit IndexedSeq"), [Iterator]("Visit Iterator"), [LazyList]("Visit LazyList"), [Vector]("Visit Vector"), [StringBuilder]("Visit StringBuilder"), and [Range]("Visit Range").
+Other types aliased are [Iterable](./iterable/ITERABLE.md "Visit Iterable"), [Seq](./seq/SEQ.md "Visit Seq"), [IndexedSeq]("Visit IndexedSeq"), [Iterator]("Visit Iterator"), [LazyList]("Visit LazyList"), [Vector]("Visit Vector"), [StringBuilder]("Visit StringBuilder"), and [Range]("Visit Range").
 
 The following figure shows all collections in package `scala.collection`. These are all high-level abstract classes or traits, which generally have mutable as well as immutable implementations.
 
