@@ -47,4 +47,10 @@ This code is much more concise than the one to three loops required for traditio
 
 Furthermore, the `partition` operation is quite fast, and can be even faster on parallel collections on multiple cores.
 
+<<<<<<< HEAD
 This document provides an in depth discussion of the APIs of the Scala collections classes from a user’s perspective. It takes you on a tour of all the fundamental classes and the methods they define.
+=======
+This document provides an in depth discussion of the APIs of the Scala collections classes from a user’s perspective. It takes you on a tour of all the fundamental classes and the methods they define.
+
+---
+>>>>>>> 563c56b (Adding INTRODUCTION.md and improving other MD files)
