@@ -7,7 +7,7 @@
 
 ---
 
-** [Operations in Class Map](./MAP.md "Visit MAP.md") **
+**[Operations in Class Map](./MAP.md "Visit MAP.md")**
 
 A [Map](https://www.scala-lang.org/api/current/scala/collection/Map.html "Visit Map") is an [Iterable](https://www.scala-lang.org/api/current/scala/collection/Iterable.html "Visit Iterable") consisting of pairs of keys and values (also named mappings or associations). Scala’s [Predef](https://www.scala-lang.org/api/current/scala/Predef$.html "Visit Predef") object offers an implicit conversion that lets you write `key -> value` as an alternate syntax for the pair `(key, value)`.
 
@@ -29,7 +29,7 @@ The fundamental operations on maps are similar to those on sets. They are summar
 
 ---
 
-** [Operations in Class immutable.Map](./IMMUTABLE_MAP.md "Visit IMMUATBLE_MAP.md") **
+**[Operations in Class immutable.Map](./IMMUTABLE_MAP.md "Visit IMMUATBLE_MAP.md")**
 
 Immutable maps support in addition operations to add and remove mappings by returning new Maps, as summarized in the following table.
 
@@ -37,7 +37,7 @@ Immutable maps support in addition operations to add and remove mappings by retu
 
 ---
 
-** [Operations in Class mutable.Map](./MUTABLE_MAP.md "Visit MUTABLE_MAP.md") **
+**[Operations in Class mutable.Map](./MUTABLE_MAP.md "Visit MUTABLE_MAP.md")**
 
 Mutable maps support in addition the operations summarized in the following table.
 
@@ -48,8 +48,6 @@ The addition and removal operations for maps mirror those for sets. A mutable ma
 The `getOrElseUpdate` is useful for accessing maps that act as caches. Say you have an expensive computation triggered by invoking a function `f`:
 
 ```scala
-
-• Scala 2 and 3
 
 scala> def f(x: String): String =
          println("taking my time."); Thread.sleep(100)
@@ -62,7 +60,6 @@ Assume further that `f` has no side-effects, so invoking it again with the same 
 
 ```scala
 
-• Scala 2 and 3
 scala> val cache = collection.mutable.Map[String, String]()
 cache: scala.collection.mutable.Map[String,String] = Map()
 
@@ -72,7 +69,6 @@ You can now create a more efficient caching version of the `f` function:
 
 ```scala
 
-• Scala 2 and 3
 scala> def cachedF(s: String): String = cache.getOrElseUpdate(s, f(s))
 cachedF: (s: String)String
 scala> cachedF("abc")
