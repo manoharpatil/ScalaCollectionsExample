@@ -64,7 +64,7 @@ ScalaCollectionsExample
 | 2       | [Mutable and Immutable Collections](./src/main/scala/com/example/scala/collections/MUTABLE_AND_IMMUTABLE_COLLECTIONS.md) |
 | 3       | [Iterable](./src/main/scala/com/example/scala/collections/iterable/ITERABLE.md)                                          |
 | 4       | [Seq](./src/main/scala/com/example/scala/collections/seq/SEQ.md)                                                         |             
-| 5       | [Map](./src/main/scala/com/example/scala/collections/map/MAP.md)                                                         |             
+| 5       | [Map](./src/main/scala/com/example/scala/collections/map/MAPS.md)                                                        |             
 | 6       | [Set](./src/main/scala/com/example/scala/collections/set/SET.md)                                                         |
 
 ## Resources
